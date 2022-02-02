@@ -1,0 +1,31 @@
+.feature-card1-feature-card {
+  width: 1200px;
+  height: 230px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.feature-card1-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card1-text1 {
+  color: #605f5f;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+.rootClassName8 {
+  align-self: center;
+}
