@@ -1,3 +1,63 @@
+.feature-card1-feature-card {
+  width: 1200px;
+  height: 230px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.feature-card1-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card1-text1 {
+  color: #605f5f;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+.rootClassName8 {
+  align-self: center;
+}
+
+.feature-card11-feature-card {
+  width: 1200px;
+  height: 230px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card11-feature-card:hover {
+  transform: scale(1.02);
+}
+.rootClassName {
+  top: 265px;
+  left: 156px;
+  position: absolute;
+  align-self: center;
+}
+@media(max-width: 479px) {
+  .rootClassName {
+    top: 378px;
+    left: 158px;
+  }
+}
+
 .home-container {
   width: 100%;
   height: auto;
@@ -15,8 +75,8 @@
   background-color: var(--dl-color-gray-700);
 }
 .home-features {
-  width: 100%;
-  height: 707px;
+  width: 1244px;
+  height: 850px;
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxcontent);
@@ -43,30 +103,6 @@
   color: var(--dl-color-gray-500);
   text-align: center;
 }
-.home-link {
-  display: contents;
-}
-.home-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 54px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  text-decoration: none;
-}
-.home-button {
-  width: 190px;
-  height: 59px;
-  align-self: flex-start;
-  border-width: 0px;
-  background-color: #8751bb;
-}
-.home-text07 {
-  font-style: normal;
-  font-weight: 700;
-  text-decoration: none;
-}
 .home-cards-container {
   width: 100%;
   display: flex;
@@ -87,7 +123,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-container2 {
+.home-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -102,7 +138,7 @@
 .home-heading {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text08 {
+.home-text07 {
   color: var(--dl-color-gray-500);
   text-align: center;
 }
@@ -117,13 +153,14 @@
   padding-bottom: var(--dl-space-space-doubleunit);
 }
 .home-image1 {
-  width: 100px;
+  width: 91px;
+  height: 87px;
   object-fit: cover;
 }
 .home-heading1 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text09 {
+.home-text08 {
   color: var(--dl-color-gray-500);
   height: 200px;
   text-align: center;
@@ -145,7 +182,7 @@
 .home-heading2 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text10 {
+.home-text09 {
   color: var(--dl-color-gray-500);
   font-size: 16px;
   font-style: normal;
@@ -156,58 +193,14 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-container3 {
-  top: 750px;
-  left: -6px;
-  width: 100%;
-  height: 303px;
+.home-container2 {
+  width: 1507px;
+  height: 787px;
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-}
-.home-text11 {
-  width: 273px;
-  height: 300px;
-  align-self: center;
-}
-.home-text12 {
-  color: var(--dl-color-gray-500);
-  width: 50%;
-  text-align: center;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.home-social-bar {
-  width: 100%;
-  height: 358px;
-  display: flex;
-  padding: 48px;
-  justify-content: center;
-}
-.home-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.home-icon02 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.home-icon04 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.home-icon06 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.home-icon08 {
-  width: 16px;
-  height: 16px;
+  justify-content: flex-start;
 }
 @media(max-width: 991px) {
   .home-feature-card {
@@ -233,10 +226,6 @@
   .home-feature-card2 {
     width: 70%;
   }
-  .home-social-bar {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 }
 @media(max-width: 479px) {
   .home-feature-card {
@@ -247,11 +236,5 @@
   }
   .home-feature-card2 {
     width: 100%;
-  }
-  .home-social-bar {
-    padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 32px;
   }
 }
